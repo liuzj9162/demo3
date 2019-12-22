@@ -1,11 +1,11 @@
-# demo3
+#demo3
 git init
 git config (--global/local) user.name "lzj"
 git config (--global/local) user.email "liuzj9162@163.com"
 git add gitTest.java
 git commit gitTest.java -m "change01 dev A"
 
-# Remote push and pull
+#Remote push and pull
 git remote add origin url
 git push origin master
 git pull origin master
@@ -20,6 +20,8 @@ git commit gitTest.java -m "change02 by dev B"
 git reset --hard HEAD^
 git reset --hard HEAD~2
 git reset --hard versionID
+git reflog
+git log --pretty=oneline
 
 #Branch switch and create
 git branch -v
