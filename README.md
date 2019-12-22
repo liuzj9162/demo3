@@ -31,6 +31,9 @@ git checkout master/feature01/hotfix
 git checkout -b feature02  === git branch feature02  git checkout feature02
 git merge feature  (on master)
 git branch -d feature02
+git switch -c dev   (创建并切换)
+git switch master
+
 
 #View conflict
 git diff
