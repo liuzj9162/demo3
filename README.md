@@ -23,11 +23,14 @@ git reset --hard versionID
 git reflog
 git log --pretty=oneline
 
-#Branch switch and create
+#Branch switch/create/delete/merge 
 git branch -v
 git branch feature01
 git branch hotfix
 git checkout master/feature01/hotfix
+git checkout -b feature02  === git branch feature02  git checkout feature02
+git merge feature  (on master)
+git branch -d feature02
 
 #View conflict
 git diff
