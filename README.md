@@ -15,6 +15,7 @@ git clone url
 vim gitTest.java
 git add gitTest.java
 git commit gitTest.java -m "change02 by dev B"
+git commit -am "..."
 
 #Version ahead and back
 git reset --hard HEAD^
